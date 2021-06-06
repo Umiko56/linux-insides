@@ -1,12 +1,12 @@
-# Kernel Boot Process
+# Le processus d'amorcage du noyau
 
-This chapter describes the linux kernel boot process. Here you will see a series of posts which describes the full cycle of the kernel loading process:
+Ce chapitre décrit le processus d'amorcage du noyau linux. Ici vous trouverez une série de posts qui expliquent en détail la façon dont le noyau se charge:
+ 
+* [Du chargeur d'amorcage au noyau](linux-bootstrap-1.md) - décris toutes les étapes du démarrage de l'ordinateur jusqu'à la première instruction du noyau. 
+* [Les premières étapes de configuration du noyau](linux-bootstrap-2.md) - décris les premières étapes de la configuration du noyau. Vous verrez ici l'initialisation du tas, la requête de différents paramètres tels que l'EDD, IST, etc...
+* [Initialisation du mode vidéo et transition vers le mode protégé](linux-bootstrap-3.md) - décris l'initialisation du mode vidéo dans le code de configuration du noyau, et le passage en mode protégé.
+* [Transition vers le 64-bits](linux-bootstrap-4.md) - décris la préparation pour le passage vers le 64-bits et les détails sur la transition.
+* [La décompression du noyau](linux-bootstrap-5.md) - décris la préparation avant la décompression du noyau, ainsi que les détails sur cette décompression.
+* [La distribution aléatoire de l'espace d'adressage du noyau (kASLR)](linux-bootstrap-6.md) - décris la distribution aléatoire de l'espace d'adressage du noyau Linux.
 
-* [From the bootloader to kernel](linux-bootstrap-1.md) - describes all stages from turning on the computer to running the first instruction of the kernel.
-* [First steps in the kernel setup code](linux-bootstrap-2.md) - describes first steps in the kernel setup code. You will see heap initialization, query of different parameters like EDD, IST and etc...
-* [Video mode initialization and transition to protected mode](linux-bootstrap-3.md) - describes video mode initialization in the kernel setup code and transition to protected mode.
-* [Transition to 64-bit mode](linux-bootstrap-4.md) - describes preparation for transition into 64-bit mode and details of transition.
-* [Kernel Decompression](linux-bootstrap-5.md) - describes preparation before kernel decompression and details of direct decompression.
-* [Kernel random address randomization](linux-bootstrap-6.md) - describes randomization of the Linux kernel load address.
-
-This chapter coincides with `Linux kernel v4.17`.
+Ce chapitre a été écrit en se basant sur la version ``4.17`` du noyau Linux.

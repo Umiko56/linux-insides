@@ -1,7 +1,7 @@
-Kernel booting process. Part 1.
+Processus d'amorcage du noyau Linux - Partie 1
 ================================================================================
 
-From the bootloader to the kernel
+Du programme d'amorcage (bootloader) au noyau.
 --------------------------------------------------------------------------------
 
 If you read my previous [blog posts](https://0xax.github.io/categories/assembler/), you might have noticed that I  have been involved with low-level programming for some time. I wrote some posts about assembly programming for `x86_64` Linux and, at the same time, started to dive into the Linux kernel source code.
