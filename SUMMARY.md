@@ -1,4 +1,4 @@
-### Summary
+### Sommaire
 
 * [Amorcage](Booting/README.md)
     * [Du bootloader au noyau](Booting/linux-bootstrap-1.md)
